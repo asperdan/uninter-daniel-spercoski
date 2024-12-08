@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <br>
+        <a href="home.html" class="">
+            <img class="img" src="img/home-transparent-background-free-png.webp" alt="home">
+        </a>
+        <h3 class="titulo">Meu Portfólio</h3> &nbsp; &nbsp;
+        <p class="titulo text">- Trabalho - Programação Web - Uninter &nbsp;&nbsp;|</p>
+            <div>
+                <a href="sobre_mim.html">
+                    <button class="btn-cab">Sobre mim</button>
+                </a>
+            </div>
+            <div>
+                <a href="form.html">
+                    <button class="btn-cab">Minhas formações</button>
+                </a>
+            </div>
+            <div>
+                <a href="port.html">
+                    <button class="btn-cab">Meu Portfólio</button>
+                </a>
+            </div>
+            <div>
+                <a href="contato.html">
+                    <button class="btn-cab">Contato</button>
+                </a>
+            </div>
+    </header>
+
+    <!-- Neste arquivo há alguns inputs de texto, todos dentro de um form, para digitar nome, email e número de telefone,
+         utiizei o "small" para colocar os nomes dos dados requeridos acima de cada input,
+         e no final há um boão que deve enviar os dados digitados para o arquivo na parte action do form, mas não há arquivo então causa um
+         erro no envio -->
+
+    <div class="caixa">
+        <div class="dados">
+            <form action="" method="post">
+                <p class="par-dados">
+                    <h2 class="titulo-contato">Dados para contato</h2>
+                    <br>
+                    <small>Nome:</small>
+                    <br>
+                    <input  type="text" name="nome" placeholder="Digite seu nome" class="contato contato-nome" autocomplete="off">
+                    <br>
+                    <small>E-mail:</small>
+                    <br>
+                    <input type="text" name="email" placeholder="Digite seu E-mail" class="contato contato-email" autocomplete="off">
+                    <br>
+                    <small>Mensagem:</small>
+                    <br>
+                    <textarea name="mensagem" class="contato contato-mensagem" placeholder="Digite sua mensagem" id=""></textarea>
+                    <br>
+                    <button class="btn-enviar" type="submit">Enviar</button>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
