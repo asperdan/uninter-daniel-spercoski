@@ -1,0 +1,182 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+/*
+Neste arquivo estão as diversas personalizações no quesito de design do site, utiliza desde "height"
+e "width" para alterar o tamanho dos objetos até para mudar fontes, cores, impor limites, fazer bordas, mudar o posicionamento utilizando
+o flex, também há a alteração de tamanho e cor dos botões quando o mouse estiver encima e entre outros
+*/
+
+.titulo
+{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto
+{
+    font: 20px;
+}
+
+.cabecalho
+{
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+    position: fixed;
+    height: 50px;
+    background-color:rgb(172, 84, 255);
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.container
+{    
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-pag
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    height: 125px;
+    width: 320px;
+    background-color: rgb(172, 84, 255);
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+    
+}
+
+.btn-pag:hover
+{
+    transform: scale(1.1);
+    background-color:  rgb(134, 35, 226);
+}
+
+.principal
+{    
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    text-align: left;
+    padding-top: 70px;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.par
+{
+    color: rgb(202, 202, 202);
+    margin-top: 70px;
+    margin-left: 140px;
+    margin-right: 480px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.cabecalho img
+{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+
+}
+
+.trab
+{
+    color: rgb(109, 109, 255);
+
+}
+
+.trab cursor
+{
+    color: rgb(109, 109, 255);
+}
+
+.caixa
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dados
+{
+    color: rgb(202, 202, 202);
+    margin: 140px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contato
+{
+    border: 2px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color:rgb(204, 149, 255);
+}
+
+.titulo-contato
+{
+    display: flex;
+    justify-content: center;
+}
+
+.par-dados
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-enviar
+{
+    border: 2px;
+    border-radius: 10px;
+    height: 50px;
+    width: 302px;
+    background-color:rgb(172, 84, 255);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn-enviar:hover
+{
+    background-color:  rgb(134, 35, 226);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn-cab
+{
+    font-size: 15px;
+    margin-left: 10px;
+    border: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(172, 84, 255);
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn-cab:hover
+{
+    background-color:  rgb(134, 35, 226);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
