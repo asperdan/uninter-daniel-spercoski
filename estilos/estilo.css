@@ -180,3 +180,9 @@ o flex, também há a alteração de tamanho e cor dos botões quando o mouse es
     transition: background-color 0.3s;
     cursor: pointer;
 }
+
+.contato-mensagem
+{
+    resize: none;
+    height: 150px;
+}
